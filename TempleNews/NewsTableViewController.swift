@@ -14,7 +14,7 @@ struct feeds {
     let newsImage: UIImage!
     let newsTitle: String!
     let newsSubtitle: String!
-    let newsContent: String!
+    //let newsContent: String!
 }
 
 class NewsTableViewController: UITableViewController {
