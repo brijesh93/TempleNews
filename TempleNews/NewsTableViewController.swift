@@ -14,11 +14,12 @@ struct feeds {
     let newsImage: UIImage!
     let newsTitle: String!
     let newsSubtitle: String!
+    let newsContent: String!
 }
 
 class NewsTableViewController: UITableViewController {
     
-    
+    // typealias
     typealias JSONStandard = [String: AnyObject]
     
     // Storing array of struct "feeds" in an array for each news
